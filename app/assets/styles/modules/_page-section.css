@@ -1,0 +1,14 @@
+.page-section {
+	padding: 1.2rem 0;
+
+	@mixin atSmall {
+		padding: 4.5rem 0;
+	}
+
+	&--red {
+		background-color: $pistonBlue;
+		color: $pistonWhite;
+	}
+
+
+}
