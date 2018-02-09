@@ -19,7 +19,7 @@
 
 		@mixin atMedium {
 			left: auto;
-			transform: translateX(0%) scale(1.6);
+			transform: translateX(0) scale(1.6);
 		}
 	}
 
