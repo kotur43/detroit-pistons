@@ -30,17 +30,35 @@
 
 	&__icon--arena {
 		display: block;
+		margin-top: 2rem;
 		margin-left: auto;
 		margin-right: auto;
-		margin-bottom: .6rem;
+		margin-bottom: 4rem;
+		transform: translateX(0) scale(2.5);
+		@mixin clearfix;
 
 		@mixin atSmall {
-			position: relative;
-			top: 2px;
-			margin-right: .8rem;
-			margin-left: 0;
-			display: inline-block;
-			margin-bottom: .5rem;
+			margin-left: auto;
+			margin-right: auto;
+			left: 50%;
+			transform: translateX(0) scale(3.3);
+			margin-top: 4.5rem;
+		}
+
+		@mixin atMedium {
+			margin-left: auto;
+			margin-right: auto;
+			left: 50%;
+			transform: translateX(0) scale(4);
+			margin-top: 4.5rem;
+		}
+
+		@mixin atLarge {
+			margin-left: auto;
+			margin-right: auto;
+			left: 50%;
+			transform: translateX(0) scale(5.7);
+			margin-top: 4.5rem;
 		}
 
 	}
