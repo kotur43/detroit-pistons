@@ -11,6 +11,12 @@
 
 	@mixin atMedium {
 		background-color: rgba($pistonBlue, .3);
+		position: fixed;
+		transition: background-color .3s ease-out;
+
+		&--dark {
+			background-color: rgba($pistonNavy, .7 );
+		}
 	}
 
 	&__logo {
@@ -21,10 +27,15 @@
 		left: 50%;
 		transform: translateX(-50%) scale(1);
 		transform-origin: 0% 0%;
+		transition: transform .3s ease-out;
 
 		@mixin atMedium {
 			left: auto;
 			transform: translateX(0) scale(1.6);
+
+			.site-header--dark & {
+				transform: scale(0.72);
+			}
 		}
 	}
 
