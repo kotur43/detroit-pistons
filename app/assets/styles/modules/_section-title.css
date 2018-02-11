@@ -34,7 +34,7 @@
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 4rem;
-		transform: translateX(0) scale(2.5);
+		transform: translateX(0) scale(2);
 		@mixin clearfix;
 
 		@mixin atSmall {
