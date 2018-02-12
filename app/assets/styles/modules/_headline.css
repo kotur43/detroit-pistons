@@ -28,7 +28,7 @@
 	}
 
 	&--narrow {
-		max-width: 500px;
+		max-width: 550px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -51,6 +51,7 @@
 
 		@mixin atMedium {
 			text-align: left;
+			font-size: 2.5rem;
 		}
 	}
 
