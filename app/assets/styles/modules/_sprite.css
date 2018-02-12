@@ -1,7 +1,7 @@
 /* Do not edit modules/_sprite directly as it is generated automatically by Gulp. Instead edit gulp/templates/sprite */
 
 	.icon {
-		background-image: url('/assets/images/sprites/sprite-dcacef10.svg');
+		background-image: url('/assets/images/sprites/sprite-ff46ba6d.svg');
 				
 		}
 	
@@ -30,9 +30,9 @@
 	}
 	
 	.icon--instagram {
-		width: 42.01px;
-		height: 42.01px;
-		background-position: 51.92161083456657% 58.29161093063252%;
+		width: 42px;
+		height: 41.248px;
+		background-position: 26.457399103139014% 88.43754754297885%;
 	}
 	
 	.icon--little-caesars-arena {
@@ -72,7 +72,7 @@
 	}
 	
 	.icon--youtube {
-		width: 34.75px;
-		height: 42px;
-		background-position: 68.52985884907709% 58.28789808917198%;
+		width: 43.679px;
+		height: 30.6px;
+		background-position: 52.313156004174935% 54.34204275534442%;
 	}

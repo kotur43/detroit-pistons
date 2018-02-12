@@ -588,6 +588,10 @@ a {
 		max-width: 976px;
 	}
 
+.wrapper--narrow {
+		max-width: 470px;
+	}
+
 .wrapper .wrapper {
 		padding-left: 0;
 		padding-right: 0;
@@ -936,6 +940,15 @@ a {
 		font-weight: 500;
 	}
 
+.section-title--white {
+		color: rgba(255,255,255,.9);
+	}
+
+.section-title--less-margin {
+		margin-top: 0;
+		margin-bottom: 1.3rem;
+	}
+
 .section-title__icon {
 		display: block;
 		margin-left: auto;
@@ -1110,7 +1123,7 @@ a {
 /* Do not edit modules/_sprite directly as it is generated automatically by Gulp. Instead edit gulp/templates/sprite */
 
 .icon {
-		background-image: url('/assets/images/sprites/sprite-dcacef10.svg');
+		background-image: url('/assets/images/sprites/sprite-ff46ba6d.svg');
 				
 		}
 
@@ -1139,9 +1152,9 @@ a {
 	}
 
 .icon--instagram {
-		width: 42.01px;
-		height: 42.01px;
-		background-position: 51.92161083456657% 58.29161093063252%;
+		width: 42px;
+		height: 41.248px;
+		background-position: 26.457399103139014% 88.43754754297885%;
 	}
 
 .icon--little-caesars-arena {
@@ -1181,9 +1194,9 @@ a {
 	}
 
 .icon--youtube {
-		width: 34.75px;
-		height: 42px;
-		background-position: 68.52985884907709% 58.28789808917198%;
+		width: 43.679px;
+		height: 30.6px;
+		background-position: 52.313156004174935% 54.34204275534442%;
 	}
 
 .site-footer {
@@ -1476,3 +1489,108 @@ a {
 		-webkit-transform: scale(1);
 		        transform: scale(1);
 	}
+
+.modal {
+	position: fixed;
+	z-index: 5;
+	background-color: rgba(45,50,72, .94);
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transform: scale(1.2);
+	        transform: scale(1.2);
+	-webkit-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+
+}
+
+.modal--is-visible {
+		opacity: 1;
+		visibility: visible;
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+	}
+
+.modal__inner {
+		position: absolute;
+		width: 100%;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		        transform: translateY(-50%);
+	}
+
+.modal__description {
+		font-size: 1.3rem;
+		color: rgba(255,255,255,.9);
+		text-align: center;
+		font-weight: 300;
+		line-height: 1.7;
+	}
+
+.modal__close {
+		position: absolute;
+		top: 15px;
+		right: 15px;
+		color: rgba(255,255,255,.9);
+		font-size: 2rem;
+		-webkit-transform: scaleX(1.2);
+		        transform: scaleX(1.2);
+		-webkit-transform-origin: 100% 0;
+		        transform-origin: 100% 0;
+		cursor: pointer;
+	}
+
+.modal__close:hover {
+			color: #0067B1;
+		}
+
+.social-icons {
+	text-align: center;
+}
+
+.social-icons__icon {
+		background-color: #0067B1;
+		display: inline-block;
+		margin: 0 5px 5px 5px;
+		width: 33%;
+		height: 72px;
+		position: relative;
+	}
+
+.social-icons__icon--facebook {
+			background-color: #3b5998;
+		}
+
+.social-icons__icon--twitter {
+			background-color: #1dcaff;
+		}
+
+.social-icons__icon--instagram {
+			background: #f09433; 
+			background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+		}
+
+.social-icons__icon--youtube {
+			background-color: #ff0000;
+		}
+
+@media (min-width: 530px) {
+
+.social-icons__icon {
+			width: 72px;
+			margin: 0 5px
+	}
+	}
+
+.social-icons__icon .icon {
+			display: block;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			-webkit-transform: translate(-50%, -50%);
+			        transform: translate(-50%, -50%);
+		}
