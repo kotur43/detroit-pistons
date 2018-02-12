@@ -975,8 +975,10 @@ a {
 		display: inline-block;
 		margin-left: auto;
 		margin-right: auto;
-		-webkit-transform: translateX(-5%) scale(0.1);
-		        transform: translateX(-5%) scale(0.1);
+		margin-top: 40px;
+		margin-bottom: -160px;
+		-webkit-transform: translateX(-7.5%) scale(0.15);
+		        transform: translateX(-7.5%) scale(0.15);
 		-webkit-transform-origin: 0 0;
 		        transform-origin: 0 0;
 
@@ -985,11 +987,31 @@ a {
 @media (min-width: 530px) {
 
 .section-title__icon--arena {
-			position: relative;
-			display: inline-block;
-			margin-bottom: .5rem;
-			-webkit-transform: translateX(-20%) scale(.4);
-			        transform: translateX(-20%) scale(.4)
+			margin-bottom: -100px;
+			-webkit-transform: translateX(-14%) scale(.3);
+			        transform: translateX(-14%) scale(.3)
+
+	}
+	}
+
+@media (min-width: 800px) {
+
+.section-title__icon--arena {
+			margin-top: 30px;
+			margin-bottom: -60px;
+			-webkit-transform: translateX(-18%) scale(.4);
+			        transform: translateX(-18%) scale(.4)
+
+	}
+	}
+
+@media (min-width: 1010px) {
+
+.section-title__icon--arena {
+			margin-top: 3rem;
+			margin-bottom: -20px;
+			-webkit-transform: translateX(-25%) scale(.6);
+			        transform: translateX(-25%) scale(.6)
 
 	}
 	}
