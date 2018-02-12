@@ -38,36 +38,19 @@
 	}
 
 	&__icon--arena {
-		display: block;
-		margin-top: 2rem;
+		position: relative;
+		left: 50%;
+		display: inline-block;
 		margin-left: auto;
 		margin-right: auto;
-		margin-bottom: 4rem;
-		transform: translateX(0) scale(2);
-		@mixin clearfix;
+		transform: translateX(-5%) scale(0.1);
+		transform-origin: 0 0;
 
 		@mixin atSmall {
-			margin-left: auto;
-			margin-right: auto;
-			left: 50%;
-			transform: translateX(0) scale(3.3);
-			margin-top: 4.5rem;
-		}
-
-		@mixin atMedium {
-			margin-left: auto;
-			margin-right: auto;
-			left: 50%;
-			transform: translateX(0) scale(4);
-			margin-top: 4.5rem;
-		}
-
-		@mixin atLarge {
-			margin-left: auto;
-			margin-right: auto;
-			left: 50%;
-			transform: translateX(0) scale(5.7);
-			margin-top: 4.5rem;
+			position: relative;
+			display: inline-block;
+			margin-bottom: .5rem;
+			transform: translateX(-20%) scale(.4);
 		}
 
 	}

@@ -1,78 +1,83 @@
 /* Do not edit modules/_sprite directly as it is generated automatically by Gulp. Instead edit gulp/templates/sprite */
 
 	.icon {
-		background-image: url('/assets/images/sprites/sprite-ff46ba6d.svg');
-				
-		}
+		background-image: url('/assets/images/sprites/sprite-e95fe69e.svg');
+	}
+
+	.no-svg .icon {
+		background-image: url('/assets/images/sprites/sprite-e95fe69e.png');
+	}
+
+
 	
 	.icon--detroit-pistons {
-		width: 59px;
-		height: 59px;
-		background-position: 0 99.65142857142858%;
+		width: 61px;
+		height: 61px;
+		background-position: 10.045662100456621% 98.3900293255132%;
 	}
 	
 	.icon--drink {
-		width: 30.131px;
-		height: 64.985px;
-		background-position: 27.964524905372787% 19.4008133417901%;
+		width: 32.13px;
+		height: 66.99px;
+		background-position: 5.039951745142867% 79.99761201158175%;
 	}
 	
 	.icon--facebook {
-		width: 21.23px;
-		height: 42.01px;
-		background-position: 39.303851991631454% 16.56156443085547%;
+		width: 23.23px;
+		height: 44.01px;
+		background-position: 14.277576806705284% 93.72049498589345%;
 	}
 	
 	.icon--gift {
-		width: 65.68px;
-		height: 65.512px;
-		background-position: 0 19.477406208797795%;
+		width: 67.68px;
+		height: 67.51px;
+		background-position: 0 80.12197674070974%;
 	}
 	
 	.icon--instagram {
-		width: 42px;
-		height: 41.248px;
-		background-position: 26.457399103139014% 88.43754754297885%;
+		width: 44px;
+		height: 43.25px;
+		background-position: 16.245679939894817% 93.52195121951219%;
 	}
 	
 	.icon--little-caesars-arena {
-		width: 136.5px;
-		height: 26px;
+		width: 1375px;
+		height: 268px;
 		background-position: 0 0;
 	}
 	
 	.icon--mail {
-		width: 64px;
-		height: 48px;
-		background-position: 0 60.60397350993378%;
+		width: 66px;
+		height: 50px;
+		background-position: 12.699770817417877% 76.13636363636364%;
 	}
 	
 	.icon--parking {
-		width: 64px;
-		height: 64px;
-		background-position: 99.96268656716418% 47.407407407407405%;
+		width: 66px;
+		height: 66px;
+		background-position: 5.042016806722689% 99.85416666666667%;
 	}
 	
 	.icon--star {
-		width: 64px;
-		height: 64px;
-		background-position: 99.96268656716418% 0;
+		width: 66px;
+		height: 66px;
+		background-position: 0 99.85416666666667%;
 	}
 	
 	.icon--ticket {
-		width: 64.425px;
-		height: 64.003px;
-		background-position: 68.05434376168516% 0;
+		width: 66.43px;
+		height: 66px;
+		background-position: 7.627410073591784% 79.76190476190476%;
 	}
 	
 	.icon--twitter {
-		width: 51.78px;
-		height: 42.06px;
-		background-position: 30.015945971297253% 58.310182235249144%;
+		width: 53.78px;
+		height: 44.06px;
+		background-position: 17.577693344030518% 74.87288372352909%;
 	}
 	
 	.icon--youtube {
-		width: 43.679px;
-		height: 30.6px;
-		background-position: 52.313156004174935% 54.34204275534442%;
+		width: 45.68px;
+		height: 32.6px;
+		background-position: 21.516263954503057% 72.55008121277749%;
 	}
