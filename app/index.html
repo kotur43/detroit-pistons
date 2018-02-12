@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,6 +10,7 @@
   <meta name="description" content="Unofficial site of the Detroit Pistons basketball team.">
 
   <link rel="stylesheet" href="temp/styles/styles.css">
+  <script src="/temp/scripts/Vendor.js"></script>
 
 </head>
 <body>
@@ -66,9 +68,9 @@
         
         <div class="row__medium-4 row__medium-4-larger row__b-margin-until-medium">
           <picture>
-            <source srcset="assets/images/coach.jpg 404w" media="(min-width: 1200px)">
-            <source srcset="assets/images/coach--portrait.jpg 382w" media="(min-width: 800px)">
-            <img srcset="assets/images/coach--landscape.jpg 800w" alt="Our Coach, Stan Van Gundy">
+            <source data-srcset="assets/images/coach.jpg 404w" media="(min-width: 1200px)">
+            <source data-srcset="assets/images/coach--portrait.jpg 382w" media="(min-width: 800px)">
+            <img class="lazyload" data-srcset="assets/images/coach--landscape.jpg 800w" alt="Our Coach, Stan Van Gundy">
           </picture>
         </div>
 
@@ -127,12 +129,12 @@
       </div>
 
       <div class="wrapper wrapper--medium wrapper--b-margin">
-        <img sizes="(min-width: 970px) 976px, 100vw" srcset="assets/images/arena--low-res.jpg 565w, assets/images/arena.jpg 976w, assets/images/arena--hi-dpi.jpg 1952w" alt="Little Caesars Arena.">
+        <img class="lazyload" sizes="(min-width: 970px) 976px, 100vw" data-srcset="assets/images/arena--low-res.jpg 565w, assets/images/arena.jpg 976w, assets/images/arena--hi-dpi.jpg 1952w" alt="Little Caesars Arena.">
       </div>
     </div>
   </div>
 
-  <div id="players" class="page-section page-section--players page-section--no-b-padding-until-large" data-matching-link="#players-link">
+  <div id="players" class="page-section page-section--players page-section--no-b-padding-until-large lazyload" data-matching-link="#players-link">
     <div class="wrapper wrapper--no-padding-until-large">
       
       <h2 class="section-title"><span class="icon icon--star section-title__icon">      
@@ -145,7 +147,7 @@
           
           <div class="player">
             <div class="player__photo">
-              <img sizes="160px" srcset="assets/images/drummond.jpg 160w, assets/images/drummond-hi-dpi.jpg 320w">
+              <img class="lazyload" sizes="160px" data-srcset="assets/images/drummond.jpg 160w, assets/images/drummond-hi-dpi.jpg 320w">
             </div>
             <h3 class="player__title">Andre Drummond</h3>
             <h4 class="player__numpos">#0 Center</h4>
@@ -157,7 +159,7 @@
         <div class="row__large-4">
           <div class="player">
             <div class="player__photo">
-              <img sizes="160px" srcset="assets/images/griffin.jpg 160w, assets/images/griffin-hi-dpi.jpg 320w">
+              <img class="lazyload" sizes="160px" data-srcset="assets/images/griffin.jpg 160w, assets/images/griffin-hi-dpi.jpg 320w">
             </div>  
             <h3 class="player__title">Blake Griffin</h3>
             <h4 class="player__numpos">#23 Power Forward</h4>
@@ -168,7 +170,7 @@
         <div class="row__large-4">
           <div class="player player--last">
             <div class="player__photo">
-              <img sizes="160px" srcset="assets/images/jackson.jpg 160w, assets/images/jackson-hi-dpi.jpg 320w">
+              <img class="lazyload" sizes="160px" data-srcset="assets/images/jackson.jpg 160w, assets/images/jackson-hi-dpi.jpg 320w">
             </div>
             <h3 class="player__title">Reggie Jackson</h3>
             <h4 class="player__numpos">#1 Point Guard</h4>
