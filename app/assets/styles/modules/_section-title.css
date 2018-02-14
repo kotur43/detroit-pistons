@@ -7,6 +7,10 @@
 		font-size: 3.75rem;
 	}
 
+	&--margin-b-large {
+		margin-bottom: 5rem;
+	}
+
 	strong {
 		font-weight: 500;
 	}
